@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Bean Boutique</title>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+ <!-- Navbar -->
+ <header>
+  <nav class="navbar">
+   <h1 class="logo">
+    <a href="home.html">Bean Boutique</a>
+   </h1>
+
+
+   <!-- Mobile Menu Toggle (checkbox trick) -->
+   <input type="checkbox" id="menu-toggle">
+   <label for="menu-toggle" class="menu-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+   </label>
+
+   <!-- Navigation Links -->
+   <ul class="nav-links">
+    <li><a href="coffeeSelection.html">Coffee Selection</a></li>
+    <li><a href="brewingEquipment.html">Brewing Equipment</a></li>
+    <li><a href="EventsAndWorkshops.html">Events & Workshops</a></li>
+    <li><a href="SpecialOffers.html">Special Offers</a></li>
+    <li class="cart-icon">
+                    <a href="Cart.html">
+                        <img src="img/online-shopping.png" alt="Cart">
+                        <span class="cart-count">3</span>
+                    </a>
+                </li>
+   </ul>
+  </nav>
+ </header>
+
+ <!-- Hero Section -->
+ <section class="hero">
+  <!-- Left Image -->
+  <div class="hero-img left-img">
+   
+   
+   
+    <img src="img/coffee.png" alt="coffee cup left">
+  </div>
+
+  <!-- Hero Content -->
+  <div class="hero-content">
+   <h1>Savor Your Coffee Ahead of Your Task</h1>
+   <p>Enhance your efficiency with our artisan coffee.</p>
+   <div class="hero-buttons">
+    <div class="btn-container">
+  <a href="coffeeSelection.html" class="btn">Order Now</a>
+  <a href="coffeeSelection.html" class="btn">Explore Coffee</a>
+  </div>
+
+   </div>
+  </div>
+
+  <!-- Right Image -->
+  <div class="hero-img right-img">
+   <img src="./img/c1.png" alt="coffee beans right">
+  </div>
+ </section>
+
+ 
+<!-- Our Signature Blend Section -->
+<section class="featured-products">
+  <h2>Our Signature Blends</h2>
+  <div class="product-slider">
+    <div class="slider-track">
+      <div class="product-card">
+        <img src="img/our-signture-img/slide1.jpg" alt="Ethiopian Yirgacheffe">
+        <div class="product-info">
+          <h3>Ethiopian Yirgacheffe</h3>
+          <p>Floral notes with bright citrus acidity</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/our-signture-img/slide2.jpg" alt="Colombian Supremo">
+        <div class="product-info">
+          <h3>Colombian Supremo</h3>
+          <p>Caramel sweetness with nutty undertones</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/our-signture-img/slide3.jpg" alt="Brazilian Santos">
+        <div class="product-info">
+          <h3>Brazilian Santos</h3>
+          <p>Chocolatey flavor with low acidity</p>
+        </div>
+      </div>
+
+      <!-- duplicate for smooth infinite effect -->
+      <div class="product-card">
+        <img src="img/our-signture-img/slide1.jpg" alt="Ethiopian Yirgacheffe">
+        <div class="product-info">
+          <h3>Ethiopian Yirgacheffe</h3>
+          <p>Floral notes with bright citrus acidity</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/our-signture-img/slide2.jpg" alt="Colombian Supremo">
+        <div class="product-info">
+          <h3>Colombian Supremo</h3>
+          <p>Caramel sweetness with nutty undertones</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="img/our-signture-img/slide3.jpg" alt="Brazilian Santos">
+        <div class="product-info">
+          <h3>Brazilian Santos</h3>
+          <p>Chocolatey flavor with low acidity</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- Our Coffee Journey Section -->
+ <section class="coffee-journey">
+  <h2>Our Coffee Journey</h2>
+
+  <!-- Journey Cards Grid -->
+  <div class="journey-grid">
+   <div class="journey-card">
+    <div class="journey-icon">☕</div>
+    <h3>2010 - Our Beginning</h3>
+    <p>We started with a small coffee shop, passionate about bringing the finest beans to our community.</p>
+   </div>
+   <div class="journey-card">
+    <div class="journey-icon">🌱</div>
+    <h3>2015 - Sustainable Sourcing</h3>
+    <p>Partnered with local farmers for sustainably sourced beans.</p>
+   </div>
+   <div class="journey-card">
+    <div class="journey-icon">🔥</div>
+    <h3>2018 - Master Roasting</h3>
+    <p>Introduced our signature roasting techniques for unique flavors.</p>
+   </div>
+   <div class="journey-card">
+    <div class="journey-icon">🏆</div>
+    <h3>2022 - Award Winning</h3>
+    <p>Recognized for excellence in specialty coffee across the region.</p>
+   </div>
+  </div>
+
+  <!-- Coffee Video Section -->
+  <div class="video-section">
+   <h2>Experience Our Process</h2>
+   <div class="video-container">
+    <video autoplay muted loop controls poster="img/coffee-poster.jpg">
+     <source src="img/coffee-process.mp4" type="video/mp4">
+     Your browser does not support the video tag.
+    </video>
+   </div>
+  </div>
+ </section>
+
+  <!--Modal -->
+  <!--Modal -->
+    <div class="modal-container">
+        <a href="#newsletter-modal" class="modal-btn">Get 5% Discount!</a>
+    </div>
+    
+    <div id="newsletter-modal" class="modal-overlay">
+        <div class="modal-box">
+            <a href="#" class="close-modal">&times;</a>
+            <div class="modal-header">
+                <h3>First Visit Special!</h3>
+                <p>Get 5% off when you join our newsletter</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn primary">Claim Discount</button>
+                <div class="captcha-container">
+                    <div id="captchaQuestion" class="captcha-question"></div>
+                    <input type="text" id="captchaInput" placeholder="Enter answer" required>
+                    <input type="hidden" id="captchaAnswer">
+                    <div id="captchaError" class="error-message"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+   <script>
+document.addEventListener('DOMContentLoaded', () => {
+
+    const modal = document.getElementById('newsletter-modal');
+
+    // Check if user has visited before
+    if (!localStorage.getItem('visited')) {
+        showModal();
+        localStorage.setItem('visited', 'true'); // Mark as visited
+    }
+
+    // Close modal when clicking outside
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal || e.target.classList.contains('close-modal')) {
+            hideModal();
+        }
+    });
+
+    // CAPTCHA generation
+    generateCaptcha();
+
+    // Form submission validation
+    document.querySelector('.newsletter-form').addEventListener('submit', (e) => {
+        const userAnswer = parseInt(document.getElementById('captchaInput').value);
+        const correctAnswer = parseInt(document.getElementById('captchaAnswer').value);
+        const errorElement = document.getElementById('captchaError');
+
+        if (userAnswer !== correctAnswer) {
+            e.preventDefault();
+            errorElement.textContent = 'Incorrect answer. Please try again.';
+            errorElement.style.display = 'block';
+            generateCaptcha();
+        } else {
+            alert('Thank you! Your 5% discount is confirmed.');
+            hideModal();
+        }
+    });
+});
+
+// Show modal function
+function showModal() {
+    const modal = document.getElementById('newsletter-modal');
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+}
+
+// Hide modal function
+function hideModal() {
+    const modal = document.getElementById('newsletter-modal');
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+// CAPTCHA generator
+function generateCaptcha() {
+    const num1 = Math.floor(Math.random() * 5) + 3; // 3-7
+    const num2 = Math.floor(Math.random() * 4) + 2; // 2-5
+    const answer = num1 + num2;
+
+    document.getElementById('captchaQuestion').textContent = `What is ${num1} + ${num2}?`;
+    document.getElementById('captchaAnswer').value = answer;
+    document.getElementById('captchaInput').value = '';
+    document.getElementById('captchaError').style.display = 'none';
+}
+</script>
+
+
+   
+  
+ <!-- footer section start  -->
+
+ <footer class="main-footer">
+  <div class="footer-content">
+   <div class="footer-grid">
+    <!-- Visit Us Column -->
+    <div class="footer-column">
+     <h4>Visit Us</h4>
+     <p class="footer-address">
+      Bean Boutique<br>
+      24 Arabica Street<br>
+      Camden Town<br>
+      London NW1 8AB<br>
+      United Kingdom
+     </p>
+     <div class="contact-info">
+      <p>☎️ +44 20 7946 0815</p>
+      <p>✉️ info@beanboutique.co.uk</p>
+     </div>
+    </div>
+
+    <!-- Quick Links Column -->
+    <div class="footer-column">
+     <h4>Quick Links</h4>
+     <ul class="footer-links">
+      <li><a href="CoffeeSelection.html">Coffee Selection</a></li>
+      <li><a href="BrewingEquipment.html">Brewing Guides</a></li>
+      <li><a href="EventsAndWorkshops.html">Event Calendar</a></li>
+      <li><a href="SpecialOffers.html">Weekly Specials</a></li>
+     </ul>
+    </div>
+
+    <!-- Social + Hours Column -->
+    <div class="footer-column">
+     <h4>Follow & Hours</h4>
+     <div class="social-links">
+
+     <a href="https://twitter.com" target="_blank">
+  <img src="img/footer/twitter.png" alt="Twitter">
+</a>
+<a href="https://facebook.com" target="_blank">
+  <img src="img/footer/facebook.png" alt="Facebook">
+</a>
+<a href="https://instagram.com" target="_blank">
+  <img src="img/footer/instagram.png" alt="Instagram">
+</a>
+
+
+     </div>
+     <div class="opening-hours">
+      <p>Open Daily:</p>
+      <p>Mon-Fri: 7AM - 7PM</p>
+      <p>Weekends: 8AM - 8PM</p>
+     </div>
+    </div>
+   </div>
+   <p class="copyright">&copy; 2025 Bean Boutique. All rights reserved.</p>
+  </div>
+ </footer>
+
+
+
+</body>
+
+</html>

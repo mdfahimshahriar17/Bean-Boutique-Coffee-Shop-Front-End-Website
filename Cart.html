@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Bean Boutique</title>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+ <!-- Navbar -->
+ <header>
+  <nav class="navbar">
+   <h1 class="logo">
+    <a href="home.html">Bean Boutique</a>
+   </h1>
+
+
+   <!-- Mobile Menu Toggle (checkbox trick) -->
+   <input type="checkbox" id="menu-toggle">
+   <label for="menu-toggle" class="menu-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+   </label>
+
+   <!-- Navigation Links -->
+    <ul class="nav-links">
+    <li><a href="coffeeSelection.html">Coffee Selection</a></li>
+    <li><a href="brewingEquipment.html">Brewing Equipment</a></li>
+    <li><a href="EventsAndWorkshops.html">Events & Workshops</a></li>
+    <li><a href="SpecialOffers.html">Special Offers</a></li>
+    <li class="cart-icon">
+                    <a href="Cart.html">
+                        <img src="img/online-shopping.png" alt="Cart">
+                        <span class="cart-count">3</span>
+                    </a>
+                </li>
+   </ul>
+  </nav>
+ </header>
+
+<!-- Cart Section  -->
+ <section class="cart-hero">
+    <div class="cart-hero-content">
+      <h1>Your Shopping Cart</h1>
+      <p>Review your favorite coffee picks before checkout</p>
+    </div>
+  </section>
+
+  <!-- Shopping Cart Section -->
+  <section class="shopping-cart">
+    <div class="cart-container">
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Product Row 1 -->
+          <tr>
+            <td class="product-info">
+              <img src="img/coffee-selection/p1.png" alt="Arabica Coffee">
+              <div>
+                <h3>Premium Arabica Beans</h3>
+                <p>Freshly roasted 250g pack</p>
+              </div>
+            </td>
+            <td>$12.99</td>
+            <td>
+              <div class="quantity-control">
+                <button>-</button>
+                <input type="number" value="1" min="1">
+                <button>+</button>
+              </div>
+            </td>
+            <td>$12.99</td>
+            <td><button class="remove-btn">✕</button></td>
+          </tr>
+
+          <!-- Product Row 2 -->
+          <tr>
+            <td class="product-info">
+              <img src="img/coffee-selection/p5.png" alt="Espresso Blend">
+              <div>
+                <h3>Espresso Blend</h3>
+                <p>Rich & bold 500g pack</p>
+              </div>
+            </td>
+            <td>$19.99</td>
+            <td>
+              <div class="quantity-control">
+                <button>-</button>
+                <input type="number" value="2" min="1">
+                <button>+</button>
+              </div>
+            </td>
+            <td>$39.98</td>
+            <td><button class="remove-btn">✕</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Cart Summary -->
+      <div class="cart-summary">
+        <h2>Order Summary</h2>
+        <div class="summary-item">
+          <span>Subtotal</span>
+          <span>$52.97</span>
+        </div>
+        <div class="summary-item">
+          <span>Shipping</span>
+          <span>$5.00</span>
+        </div>
+        <div class="summary-item total">
+          <span>Total</span>
+          <span>$57.97</span>
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+ 
+ <!-- footer section start  -->
+
+ <footer class="main-footer">
+  <div class="footer-content">
+   <div class="footer-grid">
+    <!-- Visit Us Column -->
+    <div class="footer-column">
+     <h4>Visit Us</h4>
+     <p class="footer-address">
+      Bean Boutique<br>
+      24 Arabica Street<br>
+      Camden Town<br>
+      London NW1 8AB<br>
+      United Kingdom
+     </p>
+     <div class="contact-info">
+      <p>☎️ +44 20 7946 0815</p>
+      <p>✉️ info@beanboutique.co.uk</p>
+     </div>
+    </div>
+
+    <!-- Quick Links Column -->
+    <div class="footer-column">
+     <h4>Quick Links</h4>
+     <ul class="footer-links">
+      <li><a href="CoffeeSelection.html">Coffee Selection</a></li>
+      <li><a href="BrewingEquipment.html">Brewing Guides</a></li>
+      <li><a href="EventsAndWorkshops.html">Event Calendar</a></li>
+      <li><a href="SpecialOffers.html">Weekly Specials</a></li>
+     </ul>
+    </div>
+
+    <!-- Social + Hours Column -->
+    <div class="footer-column">
+     <h4>Follow & Hours</h4>
+     <div class="social-links">
+
+      <a href="https://twitter.com" target="_blank"><img src="img/footer/twitter.png" alt="Twitter"></a>
+      <a href="https://facebook.com" target="_blank"><img src="img/footer/facebook.png" alt="Facebook"></a>
+      <a href="https://twitter.com" target="_blank"><img src="img/footer/instagram.png" alt="ig"></a>
+
+     </div>
+     <div class="opening-hours">
+      <p>Open Daily:</p>
+      <p>Mon-Fri: 7AM - 7PM</p>
+      <p>Weekends: 8AM - 8PM</p>
+     </div>
+    </div>
+   </div>
+   <p class="copyright">&copy; 2025 Bean Boutique. All rights reserved.</p>
+  </div>
+ </footer>
+
+
+
+</body>
+
+</html>
