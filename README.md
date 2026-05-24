@@ -8,13 +8,6 @@ The website includes coffee products, brewing equipment, events, special offers,
 
 ---
 
-## Live Preview
-
-Add your live website link here:
-
-https://your-live-website-link.com
-
----
 
 ## Project Overview
 
