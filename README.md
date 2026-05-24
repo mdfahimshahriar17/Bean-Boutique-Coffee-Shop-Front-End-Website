@@ -55,7 +55,7 @@ cart.html
 ---
 
 ## Folder Structure
-
+```txt
 Bean-Boutique-Coffee-Shop/
 │
 ├── index.html
@@ -76,6 +76,7 @@ Bean-Boutique-Coffee-Shop/
 │
 └── screenshots/
     └── website screenshots
+```
 
 ---
 
