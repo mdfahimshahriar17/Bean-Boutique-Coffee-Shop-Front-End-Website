@@ -1,4 +1,3 @@
-```md
 # Bean Boutique Coffee Shop
 
 ## L4DC Assignment Project
@@ -199,4 +198,4 @@ L4DC Assignment Project
 ## License
 
 This project is created for educational purposes.
-```
+
